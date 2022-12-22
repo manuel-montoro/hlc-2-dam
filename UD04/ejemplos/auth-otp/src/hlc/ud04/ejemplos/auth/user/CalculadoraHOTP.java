@@ -3,12 +3,12 @@ package hlc.ud04.ejemplos.auth.user;
 import hlc.ud04.ejemplos.auth.otp.GeneradorHOTP;
 
 /**
- * Aplicación que puede usar un usuario para calcular su clave OTP
+ * Aplicación que puede usar un usuario para calcular su clave HOTP
  * Se podría hacer más amigable si fuera almacenando automáticamente el contador
  * @author mmontoro
  *
  */
-public class CalculadoraOTP {
+public class CalculadoraHOTP {
 
   private static final String DEFAULT_SECRETO = "0FF4103BBB01B6CD";
   private static final long DEFAULT_CONTADOR = 0;
